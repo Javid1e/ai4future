@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 18.13.0
-        
+
 
       - name: Install dependencies
         run: yarn install
@@ -25,7 +25,7 @@ jobs:
         run: yarn build
 
       - name: Export Next.js app
-        run: yarn export
+        run: yarn next export
 
       - name: Deploy to GitHub Pages
         run: |
