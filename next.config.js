@@ -6,5 +6,6 @@ module.exports = withBundleAnalyzer({
   eslint: {
     ignoreDuringBuilds: true,
   },
+  assetPrefix: ".",
   output: 'export',
 });
