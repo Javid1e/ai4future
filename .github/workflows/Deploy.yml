@@ -40,3 +40,5 @@ jobs:
 
         env:
           NODE_ENV: production
+          GITHUB_USER: ${{ secrets.GITHUB_USER }}
+          GITHUB_PASSWORD: ${{ secrets.GITHUB_PASSWORD }}
