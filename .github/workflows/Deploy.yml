@@ -24,8 +24,6 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Export Next.js app
-        run: yarn next export
 
       - name: Deploy to GitHub Pages
         run: |

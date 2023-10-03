@@ -6,10 +6,5 @@ module.exports = withBundleAnalyzer({
   eslint: {
     ignoreDuringBuilds: true,
   },
-  exportPathMap: function () {
-    return {
-      '/': { page: '/' },
-      // تعریف صفحات دیگر
-    };
-  },
+  output: 'export',
 });
